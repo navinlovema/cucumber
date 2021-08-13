@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-13T16:44:49.446Z",
+        "line": 2,
+        "name": "user need to pass his username and password for authentication",
+        "description": "",
+        "id": "user-log-in-feature-file;user-need-to-pass-his-username-and-password-for-authentication",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "glue.LogIn.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user must provide username and password",
+            "match": {
+              "location": "glue.LogIn.user_must_provide_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check username and password provided by user",
+            "match": {
+              "location": "glue.LogIn.check_username_and_password_provided_by_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user get logged in",
+            "match": {
+              "location": "glue.LogIn.user_get_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Log In Feature file",
+    "description": "",
+    "id": "user-log-in-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/LogIn.feature",
+    "tags": []
+  }
+]
